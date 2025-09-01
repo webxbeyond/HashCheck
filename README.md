@@ -47,6 +47,7 @@ Pусский: Yurii Petrashko
 Svenska: Stefan Friman  
 Türkçe: M. Ömer Gölgeli  
 Yкраїнська: Yurii Petrashko
+বাংলা: [@webxbeyond](https://github.com/webxbeyond)  
 
 #### License and miscellanea ####
 

@@ -241,6 +241,69 @@ STRINGTABLE LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
 	IDS_OPT_FONT_CHANGE      "&Výběr..."
 }
 
+// বাংলা
+STRINGTABLE LANGUAGE LANG_BENGALI, SUBLANG_DEFAULT
+{
+	IDS_FILETYPE_DESC        "চেকসাম ফাইল"  // shown in the "Type" column in Explorer for files associated with HashCheck
+
+	// Strings used in multiple modules
+	IDS_HC_PAUSE             "&বিরতি"
+	IDS_HC_RESUME            "&পুনরায় শুরু"
+	IDS_HC_STOP              "&বন্ধ করুন"
+	IDS_HC_RESULT_FMT        "%u এর %u ফাইল"  // %u, %u == count, total; prefix with "!" to reverse the order (singular version)
+	IDS_HC_RESULTS_FMT       "%u এর %u ফাইলসমূহ"  // %u, %u == count, total; prefix with "!" to reverse the order (plural version)
+	IDS_HC_SAVE_ERROR        "চেকসাম ফাইল লেখার জন্য খোলা যায়নি।"
+	IDS_HC_OK                "ঠিক আছে"
+	IDS_HC_CANCEL            "বাতিল"
+
+	// Strings used exclusively in the HashSave module (context menu)
+	IDS_HS_MENUTEXT          "চেকসাম ফাইল তৈরি করুন..."
+	IDS_HS_TITLE_FMT         "\"%s\" তৈরি হচ্ছে..."  // %s == name of the checksum file
+
+	// Strings used exclusively in the HashProp module (file properties tab)
+	IDS_HP_TITLE             "চেকসামসমূহ"
+	IDS_HP_STATUSBOX         "অগ্রগতি"
+	IDS_HP_STATUSTEXT_FMT    "%s সফলভাবে হ্যাশ করা হয়েছে"  // %s == result summary in the form of IDS_HC_RESULT(S)_FMT
+	IDS_HP_FIND              "&খুঁজুন"
+	IDS_HP_FIND_NOSTRING     "অনুসন্ধান টেক্সট লিখুন।"
+	IDS_HP_FIND_NOTFOUND     "টেক্সট পাওয়া যায়নি।"
+	IDS_HP_SAVE              "&সংরক্ষণ করুন..."
+	IDS_HP_OPTIONS           "&বিকল্পসমূহ"
+	IDS_HP_FILELABEL         "    ফাইল: "  // should have the same width as "SHA3-256: "; may translate "Name" if "File" is too long
+
+	// Strings used exclusively in the HashVerify module
+	IDS_HV_LOADERROR_FMT     "\"%s\" লোড করা যায়নি"  // %s == name of the checksum file
+	IDS_HV_SUMMARY           "সারাংশ"
+	IDS_HV_MATCH             "মিলেছে:"
+	IDS_HV_MISMATCH          "মেলেনি:"
+	IDS_HV_UNREADABLE        "অপাঠ্য:"  // files that cannot be opened or fully read (summary label)
+	IDS_HV_PENDING           "অবশিষ্ট:"  // files that have not yet been checked
+	IDS_HV_EXIT              "&প্রস্থান"
+	IDS_HV_COL_FILENAME      "ফাইলের নাম"
+	IDS_HV_COL_SIZE          "আকার"
+	IDS_HV_COL_STATUS        "অবস্থা"
+	IDS_HV_COL_EXPECTED      "প্রত্যাশিত চেকসাম"
+	IDS_HV_COL_ACTUAL        "আসল চেকসাম"
+	IDS_HV_STATUS_MATCH      "মিলেছে"
+	IDS_HV_STATUS_MISMATCH   "মেলেনি"
+	IDS_HV_STATUS_UNREADABLE "অপাঠ্য"  // files that cannot be opened or fully read (status column text)
+
+	// Strings for the options dialog
+	IDS_OPT_TITLE            "HashCheck বিকল্পসমূহ"
+	IDS_OPT_CM               "শেল ইন্টিগ্রেশন"
+	IDS_OPT_CM_ALWAYS        "&শর্টকাট মেনুতে HashCheck দেখান"
+	IDS_OPT_CM_EXTENDED      "&বর্ধিত শর্টকাট মেনুতে HashCheck দেখান"
+	IDS_OPT_CM_NEVER         "&কখনোই শর্টকাট মেনুতে HashCheck দেখাবেন না"
+	IDS_OPT_ENCODING         "চেকসাম ফাইল ক্যারেক্টার এনকোডিং"
+	IDS_OPT_ENCODING_UTF8    "U&TF-8 ব্যবহার করে সংরক্ষণ করুন"
+	IDS_OPT_ENCODING_UTF16   "&UTF-16LE ব্যবহার করে সংরক্ষণ করুন"
+	IDS_OPT_ENCODING_ANSI    "&ANSI ব্যবহার করে সংরক্ষণ করুন"
+	IDS_OPT_CHK              "ফাইল প্রপার্টিজ চেকসামসমূহ"
+	IDS_OPT_CHK_ERROR        "কমপক্ষে একটি চেকসাম নির্বাচন করুন"
+	IDS_OPT_FONT             "ফাইল প্রপার্টিজ চেকসাম ফন্ট"
+	IDS_OPT_FONT_CHANGE      "&পরিবর্তন করুন..."
+}
+
 // Deutsch
 STRINGTABLE LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
 {
